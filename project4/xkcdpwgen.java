@@ -56,7 +56,7 @@ public class xkcdpwgen{
     ArrayList<Integer> capitalpos = new ArrayList<Integer>();
     ArrayList<String> insert = new ArrayList<String>();
     ArrayList<String> finaloutput = new ArrayList<String>();
-    File source = new File ("test.txt");
+    File source = new File ("words.txt");
     Random random = new Random();
     // generate n words
     for (int i=0; i<w; i++) {
