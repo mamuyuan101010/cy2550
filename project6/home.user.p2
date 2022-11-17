@@ -1,0 +1,18 @@
+# Last Modified: Tue Nov 15 13:17:14 2022
+abi <abi/3.0>,
+#include <tunables/global>
+/home/mamuyuan101010/p2 flags=(audit) {
+  #include <abstractions/base>
+  /home/mamuyuan101010/p2 mr,
+  /tmp/project* rw,
+  /home/mamuyuan101010/.project2/config rw,
+  /var/log/syslog r,
+  /etc/fstab r,
+  /proc/version r,
+  /proc/buddyinfo r,
+  /etc/crontab r,
+  /run/systemd/resolve/stub-resolv.conf r,
+  /etc/passwd r,
+  /etc/hosts r,
+  network tcp,
+}
